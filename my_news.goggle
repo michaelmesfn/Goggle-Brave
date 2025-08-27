@@ -1,3 +1,8 @@
+! name: My Goggle
+! description: Filters news
+! public: false
+! author: Michael Demse
+
 version: 1
 title: News Filter
 description: Only allow results from specific news websites
