@@ -1,0 +1,12 @@
+! name: filters news now
+! description: Filters news depending on source or websites
+! public: false
+! author: Michael Demse
+
+include:
+  - site:bbc.com
+  - site:reuters.com
+  - site:nytimes.com
+
+exclude:
+  - "*"
