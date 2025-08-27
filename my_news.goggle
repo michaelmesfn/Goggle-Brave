@@ -1,11 +1,8 @@
 ! name: filters news
-! description: Filters news
+! description: Filters news depending on source or websites
 ! public: false
 ! author: Michael Demse
 
-version: 1
-title: News Filter
-description: Only allow results from specific news websites
 include:
   - site:bbc.com
   - site:reuters.com
