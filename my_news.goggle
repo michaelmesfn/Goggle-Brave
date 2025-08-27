@@ -3,10 +3,10 @@
 ! public: false
 ! author: Michael Demse
 
-include:
-  - site:bbc.com
-  - site:reuters.com
-  - site:nytimes.com
+! Include only the specified sites
+$site=bbc.com,$boost
+$site=reuters.com,$boost
+$site=nytimes.com,$boost
 
-exclude:
-  - "*"
+! Discard everything else
+$discard
