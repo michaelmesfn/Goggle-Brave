@@ -7,3 +7,6 @@ include:
   - site:bbc.com
   - site:reuters.com
   - site:nytimes.com
+
+exclude:
+  - "*"
