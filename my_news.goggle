@@ -4,9 +4,9 @@
 ! author: Michael Demse
 
 ! Include only the specified sites
-$site=bbc.com,$boost
-$site=reuters.com,$boost
-$site=nytimes.com,$boost
+$boost=10,$site=bbc.com
+$boost=10,$site=reuters.com
+$boost=10,$site=nytimes.com
 
 ! Discard everything else
 $discard
